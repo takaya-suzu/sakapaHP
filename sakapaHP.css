@@ -1,1 +1,42 @@
+/* サカパHPcss */
+body {
+    margin: 0;
+    padding: 0;
+}
 
+/* ヘッダー */
+.header {
+    width: 100%;
+    height: 72px;
+    background-color: #eae5e5b8;
+    position: fixed;
+    top: 0;
+}
+
+.header-logo {
+    display: inline-block;
+    margin-left: 48px;
+    text-align: center;
+}
+
+.header-main {
+    display: inline-block;
+    float: right;
+    margin: auto 48px auto 0;
+}
+
+.header-list {
+    list-style-type: none;
+}
+
+.header-ele {
+    display: inline-block;
+}
+
+/* メイン */
+.main {
+    margin-top: 72px;
+    height: 4000px;
+}
+
+/* フッター */
