@@ -73,6 +73,16 @@ body {
     margin-top: 72px;
     height: 4000px;
 }
+.main-wrapper{
+    background-image:url(sakapa.jpg);
+    background-size: cover;
+    padding:130px 0 400px 0;
+    color:navy;
+    text-align:center;
+}
+.main-explain{
+    text-align:center;
+}
 
 /* フッター */
 .footer {
