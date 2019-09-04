@@ -17,13 +17,16 @@ body {
 
 .header-logo {
     display: inline-block;
-    margin-left: 48px;
+    margin-left: 36px;
     position: fixed;
-    top: 13.5px;
-    font-size: 30px;
+    top: 10px;
     color: black;
     text-decoration: none;
     text-align: center;
+}
+
+.header-logo-a {
+    width: 150px;
 }
 
 .header-main {
@@ -81,7 +84,6 @@ body {
     padding:80px 0 450px 0;
     color: rgb(29, 41, 61);
     padding:70px 0 460px 0;
-    color:navy;
     text-align:center;
 }
 
