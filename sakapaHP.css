@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:cursive;
+    font-family:'ヒラギノ丸ゴ ProN';
 }
 
 /* ヘッダー */
@@ -81,7 +81,6 @@ body {
     padding:80px 0 450px 0;
     color: rgb(29, 41, 61);
     padding:70px 0 460px 0;
-    color:navy;
     text-align:center;
 }
 
@@ -94,9 +93,10 @@ body {
 .container h1,.container p {
   opacity: 0.8;
 }
- 
+
 .container h1 {
     padding-top: 20px;
+    font-family: 'Comic Sans MS';
 }
 
 .container p {
@@ -107,6 +107,11 @@ body {
     text-align:center;
     line-height:50px;
     margin:20px 30px;
+}
+
+/* SLA */
+.SLA{
+    list-style-type:none;
 }
 
 /* フッター */
