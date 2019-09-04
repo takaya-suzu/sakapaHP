@@ -77,7 +77,7 @@ body {
 /* メイン */
 .main {
     margin-top: 72px;
-    height: 2000px;
+    height: 1000px;
 }
 .main-wrapper{
     background-image:url(sakapa.jpg);
@@ -187,7 +187,16 @@ body {
     bottom: 0px;
     left: 10px;
 }
-<<<<<<< HEAD
+
+.footer-ele a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.07em;
+}
+
+.footer-link a {
+    color: #1da1f2;
+}
 
 @media screen and (min-width:1251px) and (max-width:2000px) {
     .footer-list {
@@ -202,57 +211,98 @@ body {
         margin-right: 20px;
     }
 
-    .footer-ele a {
-        text-decoration: none;
-        color: white;
-        letter-spacing: 0.07em;
-    }
-
     .footer-link {
         position: absolute;
         bottom: 90px;
         right: 100px;
     }
-
-    .footer-link a {
-        color: #1da1f2;
-    }
 }
 
-@media screen and (max-width:1250px) {
+@media screen and (min-width:1110px) and (max-width:1250px) {
     .footer-list {
         position: absolute;
         top: 50px;
-        right: 20%;
+        right: 5%;
         height: 90px;
     }
 
     .footer-list-a {
         margin: 0;
         padding: 0;
+        width: 350px;
     }
 
     .footer-ele {
+        float: left;
         list-style-type: none;
         margin-bottom: 5px;
+        margin-right: 50px;
+        width: 110px;
     }
 
-    .footer-ele a {
-        text-decoration: none;
-        color: white;
-        letter-spacing: 0.07em;
-    }
-
-    
     .footer-link {
         position: absolute;
         bottom: 10px;
         right: 0px;
     }
+}
 
-    .footer-link a {
-        color: #1da1f2;
+@media screen and (min-width:971px) and (max-width:1108px) {
+    .footer-list {
+        position: absolute;
+        top: 50px;
+        right: 0%;
+        height: 90px;
+    }
+
+    .footer-list-a {
+        margin: 0;
+        padding: 0;
+        width: 350px;
+    }
+
+    .footer-ele {
+        float: left;
+        list-style-type: none;
+        margin-bottom: 5px;
+        margin-left: 50px;
+        width: 110px;
+    }
+
+    .footer-link {
+        position: absolute;
+        bottom: 10px;
+        right: 0px;
     }
 }
-=======
->>>>>>> fb8df7e21e7af9db49777a2ca02e3bdd9614b4e0
+
+@media screen and (max-width:970px) {
+    .footer-list {
+        position: absolute;
+        top: 50px;
+        right: 7%;
+        height: 90px;
+    }
+
+    .footer-list-a {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+    }
+
+    .footer-ele {
+        float: left;
+        list-style-type: none;
+        margin-bottom: 5px;
+        margin-left: 50px;
+        width: 110px;
+    }
+
+    .footer-link {
+        position: absolute;
+        bottom: 10px;
+        right: 0px;
+    }
+}
+
+
