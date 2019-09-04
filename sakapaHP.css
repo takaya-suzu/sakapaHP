@@ -100,7 +100,8 @@ body {
 
 .container h1 {
     padding-top: 20px;
-    font-family: 'Comic Sans MS';
+    font-size:300%;
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
 
 .container p {
