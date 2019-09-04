@@ -17,13 +17,16 @@ body {
 
 .header-logo {
     display: inline-block;
-    margin-left: 48px;
+    margin-left: 36px;
     position: fixed;
-    top: 13.5px;
-    font-size: 30px;
+    top: 10px;
     color: black;
     text-decoration: none;
     text-align: center;
+}
+
+.header-logo-a {
+    width: 150px;
 }
 
 .header-main {
