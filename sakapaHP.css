@@ -113,6 +113,12 @@ body {
 }
 
 /* SLA */
+.SLA-container{
+    color: rgb(29, 41, 61);
+}
+.explain1 h1{
+  margin:100px 10px 20px 20px;
+}
 .SLA{
     list-style-type:none;
 }
