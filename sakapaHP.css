@@ -73,13 +73,18 @@ body {
 /* メイン */
 .main {
     margin-top: 72px;
-    height: 4000px;
+    height: 2000px;
 }
 .main-wrapper{
     background-image:url(sakapa.jpg);
     background-size: cover;
+<<<<<<< HEAD
     padding:80px 0 450px 0;
     color: rgb(29, 41, 61);
+=======
+    padding:70px 0 460px 0;
+    color:navy;
+>>>>>>> 4165db8234cfdb9415c061122df0ec29bbc3ecee
     text-align:center;
 }
 
@@ -89,8 +94,17 @@ body {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .container h1,.container p {
   opacity: 0.8;
+=======
+.container h1 {
+    padding-top: 20px;
+}
+
+.container p {
+
+>>>>>>> 4165db8234cfdb9415c061122df0ec29bbc3ecee
 }
 
 .main-explain{
