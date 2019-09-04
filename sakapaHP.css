@@ -100,7 +100,8 @@ body {
 
 .container h1 {
     padding-top: 20px;
-    font-family: 'Comic Sans MS';
+    font-size:300%;
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
 
 .container p {
@@ -186,6 +187,7 @@ body {
     bottom: 0px;
     left: 10px;
 }
+<<<<<<< HEAD
 
 @media screen and (min-width:1251px) and (max-width:2000px) {
     .footer-list {
@@ -252,3 +254,5 @@ body {
         color: #1da1f2;
     }
 }
+=======
+>>>>>>> fb8df7e21e7af9db49777a2ca02e3bdd9614b4e0
