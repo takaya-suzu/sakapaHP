@@ -56,6 +56,18 @@ body {
     color: black;
 }
 
+.header-twitter {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+.header-twitter-icon {
+    fill: #1da1f2;
+    width: 30px;
+    height: 30px;
+}
+
 /* メイン */
 .main {
     margin-top: 72px;
