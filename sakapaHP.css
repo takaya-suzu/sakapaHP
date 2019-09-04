@@ -9,24 +9,25 @@ body {
 .header {
     width: 100%;
     height: 72px;
-    background-color: #f3f3f3;
+    background-color: #fff;
     position: fixed;
     top: 0;
     z-index: 10;
+    border-bottom: 1px solid #696969;
 }
 
 .header-logo {
     display: inline-block;
     margin-left: 36px;
     position: fixed;
-    top: 10px;
+    top: 0px;
     color: black;
     text-decoration: none;
     text-align: center;
 }
 
 .header-logo-a {
-    width: 150px;
+    height: 72px;
 }
 
 .header-main {
@@ -145,30 +146,39 @@ body {
     height: 300px;
     position: absolute;
     top: 0;
-    margin: 15% 0;
+    margin: 0 8%;
     position: relative;
 }
 
 .footer-kind {
     position: absolute;
     top: 50px;
-    left: 50px;
+    left: 0px;
+    width: 500px;
 }
 
 .footer-kind img {
     height: 150px;
     width: 150px;
     display: inline-block;
+    float: left;
 }
 
 .footer-kind-text {
     display: inline-block;
+    float: right;
 }
 
 .footer-kind-text h1 {
+    font-size: 1.5em;
+    margin: 0 100px 0 0;
 }
 
 .footer-kind-text p {
+    width: 300px;
+    margin:  0;
+    padding-top: 10px;
+    font-size: 0.8em;
 }
 
 .footer-list {
@@ -179,6 +189,7 @@ body {
 
 .footer-ele {
     list-style-type: none;
+    display: inline-block;
 }
 
 .footer-ele a {
