@@ -115,10 +115,20 @@ body {
 /* SLA */
 .SLA-container{
     color: rgb(29, 41, 61);
+    text-align:center;
+}
+.SLA_eng{
+  font-size:50%;
+  color:rgba(41, 43, 103, 0.83);
+  margin-left: 100px;
 }
 .explain1 h1{
-  margin:100px 10px 20px 20px;
+  margin-top: 100px;
+  padding:60px 20px;
+  background-color:rgba(196, 234, 241, 0.5);
+
 }
+
 .SLA{
     list-style-type:none;
 }
