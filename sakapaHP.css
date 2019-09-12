@@ -35,7 +35,7 @@ body {
 }
 
 .header-main {
-    display: inline-block;
+    display: block;
     float: right;
     height: 72px;
     width: 530px;
@@ -47,7 +47,7 @@ body {
 .header-list {
     position: absolute;
     top: 24px;
-    display: inline-block;
+    display: block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -79,13 +79,19 @@ body {
 }
 
 /* スマホ */
-@media screen and (max-width:850px) {
+@media screen and (min-width:621px) and (max-width:850px) {
     .header-main {
-        display: none;
+        width: 100%;
+        margin: 0;
     }
 
     .header-list {
-        top: 96px;
+        display: none;
+        top: 73px;
+        background-color: rgba(255, 255, 255, 0.9);
+        height: 72px;
+        line-height: 72px;
+        width: 100%;
     }
 
     .header-twitter {
@@ -101,6 +107,50 @@ body {
         right: 10px;
         top: 10px;
         font-size: 50px;
+        cursor: pointer;
+        z-index: 100;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .header-main {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-list {
+        display: none;
+        top: 73px;
+        background-color: rgba(255, 255, 255, 0.9);
+        height: 225px;
+        line-height: 36px;
+        width: 100%;
+    }
+
+    .header-ele {
+        display: block;
+        height: 45px;
+        width: 100%;
+        font-size: 1.0em;
+        letter-spacing: 0.07em;
+        padding: 0;
+    }
+
+    .header-twitter {
+        display: none;
+        top: 92px;
+    }
+
+    .toggle-icon:before {
+        font-family: 'Material Icons';
+        content: "\e5d2";
+        font-style: normal;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 50px;
+        cursor: pointer;
+        z-index: 100;
     }
 }
 
@@ -145,6 +195,12 @@ body {
     margin:20px 30px;
 }
 
+@media screen and (max-width:850px) {
+    .main-wrapper {
+    }
+}
+
+
 @media screen and (max-width:449px) {
     .main {
         height: 1500px;
@@ -171,6 +227,7 @@ body {
 .SLA{
     list-style-type:none;
 }
+
 
 /* フッター */
 .footer {

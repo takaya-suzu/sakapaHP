@@ -1,5 +1,3 @@
-$(function(){
-    $(".toggle-icon:before").on("click", function() {
-        $('.header-main').slideToggle();
-    });
-});
+function slide() {
+    $('.header-list,.header-twitter').slideToggle();
+}
