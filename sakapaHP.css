@@ -34,6 +34,10 @@ body {
     height: 72px;
 }
 
+.header-container {
+    height: 72px;
+}
+
 .header-main {
     display: block;
     float: right;
@@ -67,9 +71,19 @@ body {
 }
 
 .header-twitter {
-    position: fixed;
-    right: 20px;
+    position: absolute;
+    right: -20px;
     top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.header-twitter a {
+    text-decoration: none;
+}
+
+.header-twitter a p {
+    display: none;
 }
 
 .header-twitter-icon {
@@ -85,9 +99,16 @@ body {
         margin: 0;
     }
 
-    .header-list {
-        display: none;
+    .header-container {
+        position: absolute;
         top: 73px;
+        width: 100%;
+        height: 72px;
+        display: none;
+    }
+
+    .header-list {
+        top: 0px;
         background-color: rgba(255, 255, 255, 0.9);
         height: 72px;
         line-height: 72px;
@@ -95,13 +116,25 @@ body {
     }
 
     .header-twitter {
-        display: none;
-        top: 92px;
+        top: 20px;
+        right: 20px;
     }
 
     .toggle-icon:before {
         font-family: 'Material Icons';
-        content: "\e5d2";
+        content: '\e5d2';
+        font-style: normal;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 50px;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .toggle-icon-change:before {
+        font-family: 'Material Icons';
+        content: '\e14c';
         font-style: normal;
         position: absolute;
         right: 10px;
@@ -118,11 +151,22 @@ body {
         margin: 0;
     }
 
-    .header-list {
-        display: none;
+    .header-container {
+        position: absolute;
         top: 73px;
-        background-color: rgba(255, 255, 255, 0.9);
+        width: 100%;
         height: 225px;
+        display: none;
+    }
+
+    .header-logo {
+        margin: 0;
+    }
+
+    .header-list {
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        height: 270px;
         line-height: 36px;
         width: 100%;
     }
@@ -137,8 +181,27 @@ body {
     }
 
     .header-twitter {
-        display: none;
-        top: 92px;
+        top: 225px;
+        right: -35vw;
+        width: 100%;
+        height: 30px;
+    }
+
+    .header-twitter a {
+        text-decoration: none;
+        font-size: 25px;
+        height: 30px;
+        width: 150px;
+    }
+
+    .header-twitter a p {
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        font-size: 20px;
+        margin:  0 0 0 20px;
+        height: 30px;
+        color: #000;
     }
 
     .toggle-icon:before {
@@ -152,12 +215,24 @@ body {
         cursor: pointer;
         z-index: 100;
     }
+
+    .toggle-icon-change:before {
+        font-family: 'Material Icons';
+        content: '\e14c';
+        font-style: normal;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 50px;
+        cursor: pointer;
+        z-index: 100;
+    }
 }
 
 /* メイン */
 .main {
     margin-top: 72px;
-    height: 1000px;
+    height: 1100px;
     width: 100%;
 }
 .main-wrapper{

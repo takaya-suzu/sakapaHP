@@ -1,3 +1,9 @@
 function slide() {
-    $('.header-list,.header-twitter').slideToggle();
+    if($('.toggle-icon').hasClass('toggle-icon-change')) {
+        $('.toggle-icon').removeClass('toggle-icon-change');
+    }else {
+        $('.toggle-icon').addClass('toggle-icon-change');
+    }
+
+    $('.header-container').slideToggle();
 }
