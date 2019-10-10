@@ -293,15 +293,15 @@ body {
   color:rgba(41, 43, 103, 0.83);
   margin-left: 100px;
 }
-.explain1 h1{
-  margin-top: 100px;
+.explain1{
+  margin-top: 72px;
   padding:60px 20px;
   background-color:rgba(196, 234, 241, 0.5);
-
 }
 
 .SLA{
     list-style-type:none;
+    padding: 0;
 }
 /* 年間予定 */
 .schedule_main {
@@ -309,7 +309,7 @@ body {
 }
 
 .schedule_explain{
-  margin-top: 100px;
+  margin-top: 72px;
   padding:60px 20px;
   background-color:rgba(196, 234, 241, 0.5);
 }
@@ -390,7 +390,8 @@ body {
   height: 1600px;
 }
 
-.qa_explain{  margin-top: 100px;
+.qa_explain{
+  margin-top: 72px;
   padding:60px 20px;
   background-color:rgba(196, 234, 241, 0.5);
   text-align: center;
@@ -423,6 +424,10 @@ body {
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 15px;
+}
+
+.qa_box_last {
+  border-bottom: dotted 2px #555;
 }
 
 .qa_box dt {
@@ -578,7 +583,7 @@ body {
 
     .footer-kind {
       position: absolute;
-      top: 50px;
+      top: 30px;
       width: 100%;
       display: inline-block;
       text-align: center;
@@ -587,7 +592,7 @@ body {
     }
 
     .footer-kind img {
-        height: 70px;
+        height: 100px;
     }
 
     .footer-list {
@@ -655,7 +660,7 @@ body {
 
     .footer-kind {
       position: absolute;
-      top: 50px;
+      top: 30px;
       width: 100%;
       display: inline-block;
       text-align: center;
@@ -664,12 +669,11 @@ body {
     }
 
     .footer-kind img {
-        height: 70px;
+        height: 100px;
     }
 
     .footer-kind-text {
         display: inline-block;
-        /* float: right; */
         position: absolute;
         left: 120px;
         top: 0;
