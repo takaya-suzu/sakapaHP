@@ -35,6 +35,7 @@ body {
 }
 
 .header-container {
+    display: block;
     height: 72px;
 }
 
@@ -324,18 +325,20 @@ body {
 .footer-kind {
     position: absolute;
     top: 50px;
-    left: 0px;
-    width: 500px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .footer-kind img {
-    height: 150px;
-    width: 150px;
+    height: 50px;
     display: inline-block;
-    float: left;
+    margin: 0 auto;
+
 }
 
-.footer-kind-text {
+/* .footer-kind-text {
     display: inline-block;
     float: right;
 }
@@ -350,7 +353,7 @@ body {
     margin:  0;
     padding-top: 10px;
     font-size: 0.8em;
-}
+} */
 
 .footer-at {
     position: absolute;
@@ -368,38 +371,45 @@ body {
     color: #1da1f2;
 }
 
-@media screen and (min-width:1251px) and (max-width:2000px) {
+/* @media screen and (min-width:1251px) and (max-width:2000px) { */
     .footer-list {
         position: absolute;
-        top: 50px;
-        right: 10px;
+        top: 125px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .footer-list-a {
+      text-align: center;
+      margin: 1em 1em;
+      padding: 0;
     }
 
     .footer-ele {
         list-style-type: none;
         display: inline-block;
-        margin-right: 20px;
+        margin-right: 40px;
+        margin-left: 40px;
     }
 
     .footer-link {
         position: absolute;
-        bottom: 90px;
+        bottom: 10px;
         right: 100px;
     }
-}
+/* } */
 
 @media screen and (min-width:1110px) and (max-width:1250px) {
-    .footer-list {
+    /* .footer-list {
         position: absolute;
-        top: 50px;
+        top: 225px;
         right: 5%;
-        height: 90px;
     }
 
     .footer-list-a {
         margin: 0;
         padding: 0;
-        width: 350px;
+        width: 100%;
     }
 
     .footer-ele {
@@ -408,17 +418,17 @@ body {
         margin-bottom: 5px;
         margin-right: 50px;
         width: 110px;
-    }
+    } */
 
-    .footer-link {
+    /* .footer-link {
         position: absolute;
         bottom: 10px;
         right: 0px;
-    }
+    } */
 }
 
 @media screen and (min-width:971px) and (max-width:1108px) {
-    .footer-list {
+    /* .footer-list {
         position: absolute;
         top: 50px;
         right: 0%;
@@ -437,17 +447,17 @@ body {
         margin-bottom: 5px;
         margin-left: 50px;
         width: 110px;
-    }
+    } */
 
-    .footer-link {
+    /* .footer-link {
         position: absolute;
         bottom: 10px;
         right: 0px;
-    }
+    } */
 }
 
 @media screen and (min-width:700px) and (max-width:970px) {
-    .footer-list {
+    /* .footer-list {
         position: absolute;
         top: 50px;
         right: 7%;
@@ -466,13 +476,13 @@ body {
         margin-bottom: 5px;
         margin-left: 50px;
         width: 110px;
-    }
+    } */
 
-    .footer-link {
+    /* .footer-link {
         position: absolute;
         bottom: 10px;
         right: 0px;
-    }
+    } */
 }
 
 @media screen and (min-width:500px) and (max-width:699px) {
@@ -486,18 +496,22 @@ body {
     }
 
     .footer-kind {
-        top: 30px;
-        margin: 0 5%;
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      margin: 0 auto;
+
     }
 
     .footer-kind img {
-        height: 100px;
-        width: 100px;
+        height: 70px;
     }
 
-    .footer-kind-text {
+    /* .footer-kind-text {
         display: inline-block;
-        /* float: right; */
+        float: right;
         position: absolute;
         left: 120px;
         top: 0;
@@ -514,7 +528,7 @@ body {
         margin: 0;
         padding-top: 10px;
         font-size: 0.6em;
-    }
+    } */
 
     .footer-list {
         position: absolute;
@@ -536,6 +550,7 @@ body {
         border-bottom: 1px solid #fff;
         height: 50px;
         font-size: 1.4em;
+        margin-left: 0;
     }
 
     .ele-1 {
@@ -579,13 +594,17 @@ body {
     }
 
     .footer-kind {
-        top: 30px;
-        margin: 0 5%;
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      margin: 0 auto;
+
     }
 
     .footer-kind img {
-        height: 100px;
-        width: 100px;
+        height: 70px;
     }
 
     .footer-kind-text {
@@ -629,6 +648,7 @@ body {
         border-bottom: 1px solid #fff;
         height: 50px;
         font-size: 1.4em;
+        margin-left: 0;
     }
 
     .ele-1 {
@@ -657,5 +677,3 @@ body {
         bottom: 85px;
     }
 }
-
-
