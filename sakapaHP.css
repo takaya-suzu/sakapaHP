@@ -304,18 +304,58 @@ body {
     list-style-type:none;
 }
 /* 年間予定 */
-.schedule_explain{  margin-top: 100px;
+.main {
+  height: 1500px;
+}
+
+.schedule_explain{
+  margin-top: 100px;
   padding:60px 20px;
   background-color:rgba(196, 234, 241, 0.5);
 }
 .schedule_container{
   text-align: center;
+  width: 100%;
 }
-.schedule_list{
+
+.table_container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.schedule_table {
+  width: 100%;
+}
+
+.schedule_table caption {
+  background-color: #003866;
+  color: #fff;
+  font-size: 20px;
+}
+
+.schedule_table tbody tr td, .schedule_table tbody tr th {
+    background-color: #00bcd44a;
+    background-repeat: repeat;
+    background-position: left top;
+    border: 0;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.schedule_table tbody tr td {
+    background-color: #39dca721;
+    vertical-align: top;
+    line-height: 2.5;
+    padding: 15px 25px;
+    border: 0;
+    white-space: normal;
+}
+
+/* .schedule_list{
   list-style-type: none;
   display: inline-block;
   text-align: left;
-}
+} */
 
 /* フッター */
 .footer {
