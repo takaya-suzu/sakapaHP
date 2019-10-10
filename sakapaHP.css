@@ -386,6 +386,10 @@ body {
 
 
 /* Q&A */
+.qa_main {
+  height: 1600px;
+}
+
 .qa_explain{  margin-top: 100px;
   padding:60px 20px;
   background-color:rgba(196, 234, 241, 0.5);
@@ -394,6 +398,8 @@ body {
 
 .qa_text {
   text-align: center;
+  font-size: 25px;
+  margin-bottom: 0;
 }
 
 .block_body {
@@ -408,14 +414,63 @@ body {
 .qa_box dt, .qa_box dd {
     line-height: 1.75;
     margin-bottom: 10px;
-    text-indent: -50px;
     padding-left: 50px;
 }
 
-.qa_box dt:before, .qa_box dd:before {
+.qa_box {
+  padding: 30px 0 15px 0;
+  border-top: dotted 2px #555;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.qa_box dt {
+  position: relative;
+}
+
+.qa_box dt:before{
+  content: 'Q';
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  margin: 5px 0 5px 0;
+  border-radius: 50%;
+  background-color: #1f9eec;
+  color: #fff;
+  line-height: 25px;
+  height: 25px;
+  width: 25px;
+}
+
+.qa_box dt #text {
+}
+
+.qa_box dd {
+  margin-left: 0;
+  position: relative;
 }
 
 .qa_box dd:before {
+  content: 'A';
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  margin: 5px 0 5px 0;
+  border-radius: 50%;
+  background-color: #ec5b5b;
+  color: #fff;
+  line-height: 25px;
+  height: 25px;
+  width: 25px;
+}
+
+.qa_box dd #text {
+
 }
 
 /* フッター */
