@@ -386,20 +386,37 @@ body {
 
 
 /* Q&A */
-.QandA{
-  text-align: center;
-}
 .qa_explain{  margin-top: 100px;
   padding:60px 20px;
   background-color:rgba(196, 234, 241, 0.5);
-}
-.QA_list {
-  list-style-type: none;
+  text-align: center;
 }
 
+.qa_text {
+  text-align: center;
+}
 
+.block_body {
+    padding: 30px 40px;
+}
 
+.block_body_letter {
+    width: 80vw;
+    margin: 0 auto;
+}
 
+.qa_box dt, .qa_box dd {
+    line-height: 1.75;
+    margin-bottom: 10px;
+    text-indent: -50px;
+    padding-left: 50px;
+}
+
+.qa_box dt:before, .qa_box dd:before {
+}
+
+.qa_box dd:before {
+}
 
 /* フッター */
 .footer {
