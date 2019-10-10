@@ -239,7 +239,6 @@ body {
 .main-wrapper{
     background-image:url(HPimg/sakapa.jpg);
     background-size: cover;
-    padding:80px 0 450px 0;
     color: rgb(29, 41, 61);
     padding:70px 0 460px 0;
     text-align:center;
@@ -268,12 +267,15 @@ body {
 .main-explain{
     text-align:center;
     line-height:50px;
-    margin:100px 30px;
+    margin:50px 30px;
 }
 
-@media screen and (max-width:850px) {
-    .main-wrapper {
-    }
+.main-explain p {
+  font-size: 20px;
+}
+
+.main-explain p:first-child {
+  font-size: 30px;
 }
 
 
@@ -294,7 +296,10 @@ body {
 
     .main-explain p {
       padding: 0 30px;
+      font-size: 16px;
     }
+
+
 
     .main-explain p:first-child {
       font-size: 27px;
@@ -351,6 +356,13 @@ body {
 .explain2 {
   margin: 20px 20px;
   font-size: 17px;
+}
+
+@media screen and (max-width: 499px) {
+  .explain1 {
+    padding: 10px 20px 40px 20px;
+    margin-bottom: 30px;
+  }
 }
 
 /* 年間予定 */
@@ -446,6 +458,10 @@ body {
 @media screen and (max-width: 499px) {
 .schedule_main {
   height: 4100px;
+}
+
+.schedule_explain {
+  padding: 30px 20px;
 }
 
 .table_container {
@@ -568,6 +584,11 @@ body {
 .result_main {
   height: 1300px;
 }
+
+.result_explain {
+  padding: 30px 20px;
+}
+
 
 .table_container {
   width: 90vw !important;
@@ -700,6 +721,11 @@ body {
   .qa_main {
     height: 2700px;
 }
+
+.qa_explain {
+  padding: 30px 20px;
+}
+
 
   .qa_box dd a {
     font-size: 16px;

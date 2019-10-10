@@ -8,9 +8,6 @@ function slide() {
     $('.header-container').slideToggle();
 }
 
-// $(function() {
-//   $('.container h1').slideDown();
-// })
 
 $(function () {
     $('.container h1').textillate({
