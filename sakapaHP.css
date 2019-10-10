@@ -380,6 +380,10 @@ body {
   vertical-align: top;
 }
 
+.schedule_explain2 {
+  margin-top: 50px;
+}
+
 
 /* Q&A */
 .QandA{
@@ -400,7 +404,7 @@ body {
 /* フッター */
 .footer {
     height: 350px;
-    background-color: rgba(105,105,105,1);
+    background-color: #555;
     color: white;
     position: relative;
     width: 100%;
@@ -416,7 +420,7 @@ body {
 
 .footer-kind {
     position: absolute;
-    top: 60px;
+    top: 40px;
     width: 100%;
     display: inline-block;
     text-align: center;
@@ -424,7 +428,7 @@ body {
 }
 
 .footer-kind img {
-    height: 80px;
+    height: 100px;
     display: inline-block;
     margin: 0 auto;
 
