@@ -305,7 +305,7 @@ body {
 }
 /* 年間予定 */
 .main {
-  height: 1800px;
+  height: 3000px;
 }
 
 .schedule_explain{
@@ -355,17 +355,6 @@ body {
     border: 0;
     white-space: normal;
 }
-/* Q&A */
-.QandA{
-  text-align: center;
-}
-.qa_explain{  margin-top: 100px;
-  padding:60px 20px;
-  background-color:rgba(196, 234, 241, 0.5);
-}
-.QA_list {
-  list-style-type: none;
-}
 
 .schedule_table tbody tr td .table_contents {
   float: left;
@@ -387,9 +376,23 @@ body {
 }
 
 .schedule_table tbody tr td .table_img img {
-  max-height: 280px;
+  max-width: 280px;
   vertical-align: top;
 }
+
+
+/* Q&A */
+.QandA{
+  text-align: center;
+}
+.qa_explain{  margin-top: 100px;
+  padding:60px 20px;
+  background-color:rgba(196, 234, 241, 0.5);
+}
+.QA_list {
+  list-style-type: none;
+}
+
 
 
 
