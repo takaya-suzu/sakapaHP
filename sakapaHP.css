@@ -358,7 +358,9 @@ body {
 .footer-at {
     position: absolute;
     bottom: 0px;
-    left: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
 }
 
 .footer-ele a {
