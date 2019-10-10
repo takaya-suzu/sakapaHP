@@ -355,6 +355,17 @@ body {
     border: 0;
     white-space: normal;
 }
+/* Q&A */
+.QandA{
+  text-align: center;
+}
+.qa_explain{  margin-top: 100px;
+  padding:60px 20px;
+  background-color:rgba(196, 234, 241, 0.5);
+}
+.QA_list {
+  list-style-type: none;
+}
 
 .schedule_table tbody tr td .table_contents {
   float: left;
