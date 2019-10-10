@@ -305,7 +305,7 @@ body {
 }
 /* 年間予定 */
 .main {
-  height: 1500px;
+  height: 1800px;
 }
 
 .schedule_explain{
@@ -331,6 +331,7 @@ body {
   background-color: #003866;
   color: #fff;
   font-size: 20px;
+  padding: 10px 0;
 }
 
 .schedule_table tbody tr td, .schedule_table tbody tr th {
@@ -342,6 +343,10 @@ body {
     white-space: nowrap;
 }
 
+.schedule_table tbody tr th {
+  width: 30px;
+}
+
 .schedule_table tbody tr td {
     background-color: #39dca721;
     vertical-align: top;
@@ -351,11 +356,32 @@ body {
     white-space: normal;
 }
 
-/* .schedule_list{
-  list-style-type: none;
-  display: inline-block;
-  text-align: left;
-} */
+.schedule_table tbody tr td .table_contents {
+  float: left;
+}
+
+.schedule_table tbody tr td .table_contents ul{
+  margin: 0;
+  padding: 0;
+}
+
+.schedule_table tbody tr td .table_contents ul li{
+  /* float: left; */
+  /* list-style: none; */
+  display: table;
+}
+
+.schedule_table tbody tr td .table_img {
+  float: right;
+}
+
+.schedule_table tbody tr td .table_img img {
+  max-height: 280px;
+  vertical-align: top;
+}
+
+
+
 
 /* フッター */
 .footer {
