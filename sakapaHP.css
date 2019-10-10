@@ -268,7 +268,7 @@ body {
 .main-explain{
     text-align:center;
     line-height:50px;
-    margin:20px 30px;
+    margin:100px 30px;
 }
 
 @media screen and (max-width:850px) {
@@ -279,33 +279,83 @@ body {
 
 @media screen and (max-width:449px) {
     .main {
-        height: 1500px;
+        height: 900px;
     }
+
+    .main-wrapper {
+      padding: 30px 0 60px 0;
+    }
+
+    .main-explain {
+      margin-top: 10px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .main-explain p {
+      padding: 0 30px;
+    }
+
+    .main-explain p:first-child {
+      font-size: 27px;
+      padding-bottom: 30px;
+      border-bottom: dotted 3px #555;
+    }
+
 }
 
 /* SLA */
+.main_SLA {
+  height: 1000px;
+}
+
 .SLA-container{
     color: rgb(29, 41, 61);
     text-align:center;
 }
+
+
 .SLA_eng{
   font-size:50%;
   color:rgba(41, 43, 103, 0.83);
   margin-left: 100px;
 }
+
 .explain1{
   margin-top: 72px;
+  margin-bottom: 70px;
   padding:60px 20px;
   background-color:rgba(196, 234, 241, 0.5);
+}
+
+.SLA-list {
+  margin: 20px;
+  border: dotted 3px rgba(196, 234, 241, 0.5);
 }
 
 .SLA{
     list-style-type:none;
     padding: 0;
 }
+
+.SLA li {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.SLA_text {
+  margin: 0 20px;
+  font-size: 17px;
+}
+
+.explain2 {
+  margin: 20px 20px;
+  font-size: 17px;
+}
+
 /* 年間予定 */
 .schedule_main {
-  height: 3000px;
+  height: 3050px;
 }
 
 .schedule_explain{
@@ -313,6 +363,11 @@ body {
   padding:60px 20px;
   background-color:rgba(196, 234, 241, 0.5);
 }
+
+.schedule_container p {
+  font-size: 20px;
+}
+
 .schedule_container{
   text-align: center;
   width: 100%;
@@ -383,6 +438,169 @@ body {
 .schedule_explain2 {
   margin-top: 50px;
 }
+
+.schedule_explain2 p {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 499px) {
+.schedule_main {
+  height: 4100px;
+}
+
+.table_container {
+  width: 90vw !important;
+}
+
+.schedule_table tbody {
+  background-color: #39dca721;
+}
+
+
+  .schedule_table tbody tr th, .schedule_table tbody tr td  {
+    display: block;
+    width: 100%;
+}
+
+.schedule_table tbody tr th {
+  padding: 5px 0;
+}
+
+.schedule_table tbody tr td {
+  padding: 0;
+}
+
+.schedule_table tbody tr td .table_contents {
+  width: 100%;
+}
+
+.schedule_table tbody tr td .table_contents ul {
+  padding-left: 20px;
+}
+
+.schedule_table tbody tr td .table_img img {
+  max-width: 250px;
+}
+
+.schedule_table tbody tr td .table_img {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.schedule_explain2 p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+}
+
+/* 大会実績 */
+.result_main {
+  height: 1000px;
+}
+
+.result_explain{
+  margin-top: 72px;
+  padding:60px 20px;
+  background-color:rgba(196, 234, 241, 0.5);
+}
+.result_container{
+  text-align: center;
+  width: 100%;
+}
+
+.table_container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.result_table {
+  width: 100%;
+}
+
+.result_table caption {
+  background-color: #003866;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.result_table tbody tr td, .result_table tbody tr th {
+    background-color: #00bcd44a;
+    background-repeat: repeat;
+    background-position: left top;
+    border: 0;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.result_table tbody tr th {
+  width: 30px;
+}
+
+.result_table tbody tr td {
+    background-color: #39dca721;
+    vertical-align: top;
+    line-height: 2.5;
+    padding: 15px 25px;
+    border: 0;
+    white-space: normal;
+}
+
+.result_table tbody tr td .table_contents {
+  float: left;
+}
+
+.result_table tbody tr td .table_contents ul{
+  margin: 0;
+  padding: 0;
+}
+
+.result_table tbody tr td .table_contents ul li{
+  /* float: left; */
+  /* list-style: none; */
+  display: table;
+}
+
+@media screen and (max-width: 499px) {
+.result_main {
+  height: 1300px;
+}
+
+.table_container {
+  width: 90vw !important;
+}
+
+.result_table tbody {
+  background-color: #39dca721;
+}
+
+
+  .result_table tbody tr th, .result_table tbody tr td  {
+    display: block;
+    width: 100%;
+}
+
+.result_table tbody tr th {
+  padding: 5px 0;
+}
+
+.result_table tbody tr td {
+  padding: 0;
+}
+
+.result_table tbody tr td .table_contents {
+  width: 100%;
+}
+
+.result_table tbody tr td .table_contents ul {
+  padding: 20px;
+}
+
+}
+
 
 
 /* Q&A */
@@ -476,6 +694,16 @@ body {
 
 .qa_box dd #text {
 
+}
+
+@media screen and (max-width: 499px) {
+  .qa_main {
+    height: 2700px;
+}
+
+  .qa_box dd a {
+    font-size: 16px;
+  }
 }
 
 /* フッター */
