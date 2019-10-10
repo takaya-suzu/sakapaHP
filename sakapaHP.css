@@ -336,7 +336,7 @@ body {
 
 .footer-kind {
     position: absolute;
-    top: 50px;
+    top: 60px;
     width: 100%;
     display: inline-block;
     text-align: center;
@@ -344,28 +344,11 @@ body {
 }
 
 .footer-kind img {
-    height: 50px;
+    height: 80px;
     display: inline-block;
     margin: 0 auto;
 
 }
-
-/* .footer-kind-text {
-    display: inline-block;
-    float: right;
-}
-
-.footer-kind-text h1 {
-    font-size: 1.5em;
-    margin: 0 100px 0 0;
-}
-
-.footer-kind-text p {
-    width: 300px;
-    margin:  0;
-    padding-top: 10px;
-    font-size: 0.8em;
-} */
 
 .footer-at {
     position: absolute;
@@ -383,121 +366,48 @@ body {
 
 .footer-link a {
     color: #1da1f2;
+    font-size: 18px;
 }
 
-/* @media screen and (min-width:1251px) and (max-width:2000px) { */
-    .footer-list {
-        position: absolute;
-        top: 125px;
-        left: 0px;
-        width: 100%;
-    }
+.footer-list {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 100%;
+}
 
-    .footer-list-a {
-      text-align: center;
-      margin: 1em 1em;
-      padding: 0;
-    }
+.footer-list-a {
+  text-align: center;
+  margin: 1em 1em;
+  padding: 0;
+}
 
-    .footer-ele {
-        list-style-type: none;
-        display: inline-block;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
+.footer-ele {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
-    .footer-link {
-        position: absolute;
-        bottom: 80px;
-        text-align: center;
-        width: 100%;
-    }
-/* } */
+.footer-link {
+    position: absolute;
+    bottom: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-link p {
+  margin: 5px 0;
+  font-size: 14px;
+}
 
 @media screen and (min-width:1110px) and (max-width:1250px) {
-    /* .footer-list {
-        position: absolute;
-        top: 225px;
-        right: 5%;
-    }
-
-    .footer-list-a {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
-
-    .footer-ele {
-        float: left;
-        list-style-type: none;
-        margin-bottom: 5px;
-        margin-right: 50px;
-        width: 110px;
-    } */
-
-    /* .footer-link {
-        position: absolute;
-        bottom: 10px;
-        right: 0px;
-    } */
 }
 
 @media screen and (min-width:971px) and (max-width:1108px) {
-    /* .footer-list {
-        position: absolute;
-        top: 50px;
-        right: 0%;
-        height: 90px;
-    }
-
-    .footer-list-a {
-        margin: 0;
-        padding: 0;
-        width: 350px;
-    }
-
-    .footer-ele {
-        float: left;
-        list-style-type: none;
-        margin-bottom: 5px;
-        margin-left: 50px;
-        width: 110px;
-    } */
-
-    /* .footer-link {
-        position: absolute;
-        bottom: 10px;
-        right: 0px;
-    } */
 }
 
 @media screen and (min-width:700px) and (max-width:970px) {
-    /* .footer-list {
-        position: absolute;
-        top: 50px;
-        right: 7%;
-        height: 90px;
-    }
-
-    .footer-list-a {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-    }
-
-    .footer-ele {
-        float: left;
-        list-style-type: none;
-        margin-bottom: 5px;
-        margin-left: 50px;
-        width: 110px;
-    } */
-
-    /* .footer-link {
-        position: absolute;
-        bottom: 10px;
-        right: 0px;
-    } */
 }
 
 @media screen and (min-width:500px) and (max-width:699px) {
@@ -523,27 +433,6 @@ body {
     .footer-kind img {
         height: 70px;
     }
-
-    /* .footer-kind-text {
-        display: inline-block;
-        float: right;
-        position: absolute;
-        left: 120px;
-        top: 0;
-        width: 70vw;
-    }
-
-    .footer-kind-text h1 {
-        font-size: 1.0em;
-        margin: 0 10px 0 0;
-    }
-
-    .footer-kind-text p {
-        width: 100%;
-        margin: 0;
-        padding-top: 10px;
-        font-size: 0.6em;
-    } */
 
     .footer-list {
         position: absolute;
