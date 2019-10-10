@@ -19,7 +19,7 @@ $(function () {
       // アニメーションの間隔時間
       minDisplayTime: 3000,
       // アニメーション開始までの遅延時間
-      initialDelay: 1000,
+      initialDelay: 500,
       // アニメーションの自動スタート
       autoStart: true,
 
@@ -39,11 +39,11 @@ $(function () {
 
       // 終了時のアニメーション設定
       out: {
-        effect: 'fadeOut',
-        delayScale: 1.5,
-        delay: 50,
-        sync: false,
-        shuffle: false
+        effect: 'none',
+        // delayScale: 1.5,
+        // delay: 50,
+        // sync: false,
+        // shuffle: false
       }
     });
 })
